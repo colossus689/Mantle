@@ -655,6 +655,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D042FC3015F72B23004E8054;
@@ -839,6 +840,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = $PRODUCT_NAME/Info.plist;
+				VALID_ARCHS = "x86_64 arm64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -851,6 +853,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = $PRODUCT_NAME/Info.plist;
+				VALID_ARCHS = "x86_64 arm64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -906,6 +909,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = $PRODUCT_NAME/Info.plist;
+				VALID_ARCHS = "x86_64 arm64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Profile;
@@ -944,6 +948,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = $PRODUCT_NAME/Info.plist;
+				VALID_ARCHS = "x86_64 arm64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Test;
